@@ -13,7 +13,7 @@ _**這個插件是做什麼的**_:
 <summary><h2>安裝教學</h2></summary>
 
 1. 下載本創庫成ZIP, 然后**解壓** \
-[**按我下載**](https://github.com/thc282/HKBUWaifuLoginBg/releases/download/v1.0.0/HKBUAnimeLoginBg.zip) 或 [**按這裡到下載頁面**](https://github.com/thc282/HKBUWaifuLoginBg/releases/tag/v1.0.0)
+[**按我下載**](https://github.com/thc282/HKBUWaifuLoginBg/releases/download/v1.0.0/HKBUAnimeLoginBg.zip) 或 [**按這裡到下載頁面**](https://github.com/thc282/HKBUWaifuLoginBg/releases)
 ---
 2. 打開chrome的選單 > 擴充功能 > 管理擴充功能 \
 ![Guide2](HKBUAnimeLoginBg/src/Guide2.jpeg)
