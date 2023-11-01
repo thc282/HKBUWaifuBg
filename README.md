@@ -24,11 +24,11 @@ _**這個插件是做什麼的**_:
 4. 選擇並確認剛下載的檔案
 > **注意: 請確保你已經解壓文件**
 
-![Guide4](DisableAlt/src/Guide4.jpeg)
+![Guide4](HKBUAnimeLoginBg/src/Guide4.jpeg)
 
 ---
 5. 如下圖出現擴充功能, 就代表成功安裝 \
-![Guide5](DisableAlt/src/Guide5.jpeg)
+![Guide5](HKBUAnimeLoginBg/src/Guide5.jpeg)
 
 </details>
 
