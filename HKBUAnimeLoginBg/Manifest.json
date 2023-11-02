@@ -4,14 +4,20 @@
     "description": "Changing the login background at HKBU login page ",
     "manifest_version": 3,
     "author": "thc282",
+    "web_accessible_resources": [
+        {
+            "resources": ["windows-xp-loading-screen.gif"],
+            "matches": ["*://*.hkbu.edu.hk/*"]
+        }
+    ],
     //api host
     "host_permissions":["*://*/*"],
     "background":{"service_worker":"WaiFuBg.js"},
     "content_scripts": [
         {
             "js": ["WaiFu.js"],
-            "matches": ["*://*/*"],
-            //"matches": ["*://*.hkbu.edu.hk/*"],
+            //"matches": ["*://*/*"],
+            "matches": ["*://*.hkbu.edu.hk/*"],
             "run_at": "document_start"
         }
     ]
