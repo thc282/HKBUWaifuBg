@@ -1,4 +1,4 @@
-//https://konachan.net/post.json?limit=2&tags=width:1920 height:1080 order:randomlet PhotoURL
+//https://konachan.net/post.json?limit=2&tags=width:1920 height:1080 order:random
 var Bgpic = undefined
 let LoadingGIF = chrome.runtime.getURL('windows-xp-loading-screen.gif')
 

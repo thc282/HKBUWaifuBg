@@ -19,7 +19,6 @@ chrome.runtime.onMessage.addListener((request, sender, senderResponse)=> {
             let result = await getData()
             let PhotoBlob = await getBlob(result[0].sample_url)
             let base64data = await getBase64(PhotoBlob)
-            
             //Send response back to WaiFu
             senderResponse({status: 'success', base64:base64data, jpg:result[0].sample_url, json:result});
         } catch (error) {
