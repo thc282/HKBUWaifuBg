@@ -1,0 +1,40 @@
+:root{
+    --white-color: rgba(255, 255, 255, 0.85);
+    --transparet-color: rbga(0, 0, 0, 0);
+    --collapsible-color: rgba(119, 119, 119, 0.55);
+    --collapsible-hover-color: rgba(85, 85, 85, 0.55);
+    --collapsible-content-color: rgba(241, 241, 241, 0.75);
+}
+
+#bgCover{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#page{
+    background-image: none !important;
+}
+
+.main-inner{
+    z-index: 1;
+    background-color: var(--white-color)  !important;
+}
+
+.navbar, .nav-tabs, .navTabParent, #region-main{
+    background-color: var(--transparet-color)   !important;
+}
+
+.bu_collapsible, .bu_active, .bu_active{
+    background-color: var(--collapsible-color)   !important;
+}
+
+.bu_collapsible:hover{
+    background-color: var(--collapsible-hover-color)   !important;
+}
+
+.bu_content{
+    background-color: var(--collapsible-content-color)   !important;
+}
